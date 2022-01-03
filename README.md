@@ -3,16 +3,24 @@
 ****SETUP WEBDRIVERIO****
 
 npm install -g n
-npm install -g npm
-node -v
-npm -v
-nvm --version
-npm init
-npm install --save-dev @wdio/cli
-npm install @wdio/sync
-npm install --save-dev chai
-npx wdio config
 
+npm install -g npm
+
+node -v
+
+npm -v
+
+nvm --version
+
+npm init
+
+npm install --save-dev @wdio/cli
+
+npm install @wdio/sync
+
+npm install --save-dev chai
+
+npx wdio config
 
 -Where is your automation backend located? On my local machine
 
