@@ -12,9 +12,6 @@ npm install @wdio/sync
 npm install --save-dev chai
 npx wdio config
 
-=========================
-WDIO Configuration Helper
-=========================
 
 ? Where is your automation backend located? On my local machine
 ? Which framework do you want to use? mocha
