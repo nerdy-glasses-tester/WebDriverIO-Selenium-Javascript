@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio-selenium-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Angela Tong",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/register": "^7.16.7",
+    "@wdio/cli": "^7.16.12",
+    "@wdio/local-runner": "^7.16.12",
+    "@wdio/mocha-framework": "^7.16.11",
+    "@wdio/spec-reporter": "^7.16.11",
+    "chai": "^4.3.4",
+    "chromedriver": "^96.0.0",
+    "prettier": "^2.5.1",
+    "wdio-chromedriver-service": "^7.2.3"
+  },
+  "dependencies": {
+    "@wdio/sync": "^7.16.12"
+  }
+}
