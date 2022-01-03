@@ -79,8 +79,7 @@ Go to wdio.config.js and add
 
     package.json add this to run tests
       "scripts": {
-    "test": "wdio wdio.conf.js"
-  },
+    "test": "wdio wdio.conf.js"},
 
 
 ****TO RUN TESTS****
