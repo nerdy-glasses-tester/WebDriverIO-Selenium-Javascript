@@ -23,7 +23,8 @@
     "geckodriver": "^3.0.1",
     "prettier": "^2.5.1",
     "wdio-chromedriver-service": "^7.2.3",
-    "wdio-geckodriver-service": "^2.1.0"
+    "wdio-geckodriver-service": "^2.1.0",
+    "wdio-safaridriver-service": "^0.0.1"
   },
   "dependencies": {
     "@wdio/sync": "^7.16.12"

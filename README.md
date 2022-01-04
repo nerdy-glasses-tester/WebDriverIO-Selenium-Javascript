@@ -94,10 +94,13 @@ npm install geckodriver --save-dev
 npm install wdio-geckodriver-service --save-dev
 npm install @wdio/firefox-profile-service --save-dev
 
+
+npm install wdio-safaridriver-service --save-dev
+
 ****TO RUN TESTS****
 
 npm run test
-npm run test -- --spec ./tests/categoryselection.test.js
+npm run test -- --spec ./tests/search.test.js
 
 
 
