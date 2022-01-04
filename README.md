@@ -89,11 +89,15 @@ Go to wdio.config.js and add
       "scripts": {
     "test": "wdio wdio.conf.js"},
 
+****Alternate Browser Testing****
+npm install geckodriver --save-dev
+npm install wdio-geckodriver-service --save-dev
+npm install @wdio/firefox-profile-service --save-dev
 
 ****TO RUN TESTS****
 
 npm run test
-
 npm run test -- --spec ./tests/categoryselection.test.js
+
 
 
